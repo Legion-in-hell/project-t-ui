@@ -4,9 +4,10 @@ const bodyParser = require('body-parser');
 const WebSocket = require('ws');
 require('dotenv').config();
 
+console.log(process.env.PORT)
 
 const app = express();
-const port = 80;
+const port = process.env.PORT;
 
 const client = new tmi.Client({
     options: { debug: true },
@@ -16,7 +17,7 @@ const client = new tmi.Client({
     },
     identity: {
         username: "nait0mea",//process.env.TWITCH_NAME,
-        password: "oauth:sphn0ooj1b7nm9k846tkck24f12t35"//process.env.TWITCH_OAUTH
+        password: "oauth:jj8l0zr8n0ga7jqauv2x9l9u5f26k5"//process.env.TWITCH_OAUTH
     },
     channels: ['nait0mea']
 });
