@@ -1,0 +1,18 @@
+{
+  "name": "project-t",
+  "version": "1.0.0",
+  "description": "Adaptation du jeu Project T* en ligne avec un chatbot Twitch pour les actions de jeu.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Legion",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "tmi.js": "^1.8.3",
+    "ws": "^7.4.6"
+  }
+}
