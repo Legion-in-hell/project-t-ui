@@ -15,7 +15,7 @@ const client = new tmi.Client({
         secure: true
     },
     identity: {
-        username: "nait0mea"//process.env.TWITCH_NAME,
+        username: "nait0mea",//process.env.TWITCH_NAME,
         password: "oauth:sphn0ooj1b7nm9k846tkck24f12t35"//process.env.TWITCH_OAUTH
     },
     channels: ['nait0mea']
