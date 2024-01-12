@@ -4,8 +4,6 @@ const bodyParser = require('body-parser');
 const WebSocket = require('ws');
 require('dotenv').config();
 
-console.log(process.env.PORT)
-
 const app = express();
 const port = process.env.PORT;
 
