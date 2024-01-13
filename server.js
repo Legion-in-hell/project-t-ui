@@ -5,7 +5,7 @@ const WebSocket = require("ws");
 require("dotenv").config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 const client = new tmi.Client({
   options: { debug: true },
